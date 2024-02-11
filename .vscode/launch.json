@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-WildcardsApplication<wildcards>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.wildcards.WildcardsApplication",
+      "projectName": "wildcards",
+      "args": "",
+      "env": {
+        "DB_USER": "wildcards",
+        "DB_PASS": "projecttwo",
+        "DB_HOST": "dbwildcards.cjxkscd0i7zp.us-east-1.rds.amazonaws.com",
+        "DB_PORT": 5432,
+        "DB_NAME": "postgres",
+        "DB_SCHEMA": "postgres",
+        "EMAIL_HOST": "smtp.gmail.com",
+        "EMAIL_PORT": 587,
+        "EMAIL_USER": "djsilentswagg@gmail.com",
+        "EMAIL_PASS": "googlechrome20"
+      }
+    }
+  ]
+}
